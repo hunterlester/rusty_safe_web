@@ -14,10 +14,10 @@ Instructions for installing Emscripten (based on Windows), assuming you are foll
 #### Compiling Rust and building site
 In this directory where you've cloned this repo:
 - In `.cargo/config`, most like located at `C:\Users\<username>` place the following in the file:
-  ```
-  [target.wasm32-unknown-emscripten]
+```
+[target.wasm32-unknown-emscripten]
 linker = "C:\\Users\\<username>\\path\\to\\emscripten\\<emscripten version number>\\emcc.bat"
-  ```
+```
 - Run `cargo build --target=wasm32-unknown-emscripten --release`
 - Run `npm install`
 - Run `npm run gulp`
