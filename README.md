@@ -23,5 +23,5 @@ linker = "C:\\Users\\<username>\\path\\to\\emscripten\\<emscripten version numbe
 - Run `cargo build --target=wasm32-unknown-emscripten --release`
 - Run `npm install`
 - Run `npm run gulp`
-- Navigate to `http://localhost:3006/` in web browser
-- If using SAFE browser, for now, you'll observe an error in console that Fetch API failed due to localhost URL scheme not being supported.
+- Navigate to `http://localhost:3006/` in SAFE browser
+- If navigating to `localhost://p:3006` you'll observe an error in console that Fetch API failed due to localhost URL scheme not being supported. Looking into it...
