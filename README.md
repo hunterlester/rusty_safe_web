@@ -2,6 +2,10 @@ Instructions for installing Emscripten (based on Windows), assuming you are foll
 
 #### Emscripten setup
 - Navigate here, http://kripken.github.io/emscripten-site/docs/getting_started/downloads.html, and download 64-bit Emscripten SDK for Windows.
+- Ensure that you have the required dependencies on your system: https://kripken.github.io/emscripten-site/docs/building_from_source/building_emscripten_from_source_on_windows.html#installing-required-tools
+  - Please note that Fastcomp is installed for you with the Windows SDK, so don't worry about that one.
+  - Just focus on making sure you have `Python`, `Node.JS`, `Visual Studio 2015`(not 2010), `Cmake`, and Java
+  - Lastly, you don't need to clone the repo as you will install via the Windows SDK
 - Unzip and place files wherever makes most sense on your system, it doesn't matter
 - Make sure Microsoft Visual Studio 2015 is installed
 - Navigate to the directory where you placed unzipped files
